@@ -38,7 +38,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@ethereumjs/common@^2.4.0":
+"@ethereumjs/common@2.6.2", "@ethereumjs/common@^2.4.0":
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/@ethereumjs/common/-/common-2.6.2.tgz#eb006c9329c75c80f634f340dc1719a5258244df"
   integrity sha512-vDwye5v0SVeuDky4MtKsu+ogkH2oFUV8pBKzH/eNBzT8oI91pKa8WyzDuYuxOQsgNgv5R34LfFDh2aaw3H4HbQ==
@@ -913,10 +913,11 @@
     eslint-visitor-keys "^2.0.0"
 
 "@web3-onboard/common@^2.0.3":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@web3-onboard/common/-/common-2.0.2.tgz#e5bcda22a6e14bd66d2f7d9b7ef9329f0c086cac"
-  integrity sha512-foFyWJIqmv83lhqyXqwW8vUdOULdRvIvj4ScxFcd3hGDYJArKnnocvAIcAAfP7Rmte3TDWejuFKz+H4dmaoUUA==
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@web3-onboard/common/-/common-2.1.6.tgz#29d1a4a98b24a08af9f532707225ad5054e25bb6"
+  integrity sha512-mVmkjM/hI4WeK9uN3TNt/+v7VtNdwoTbAzTRAOcUSIZRK3q1ptWQoL0tydRimXCTfvv+EUJxlJHb+1+QqmRVPw==
   dependencies:
+    "@ethereumjs/common" "2.6.2"
     ethers "5.5.4"
     joi "^17.4.2"
     rxjs "^7.5.2"
@@ -2866,9 +2867,9 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.9.4:
     strip-indent "^3.0.0"
 
 svelte@^3.42.5:
-  version "3.46.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.4.tgz#0c46bc4a3e20a2617a1b7dc43a722f9d6c084a38"
-  integrity sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
+  integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
 
 table@^6.0.9:
   version "6.8.0"
